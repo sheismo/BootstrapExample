@@ -35,12 +35,14 @@
         }
         .last-row{
             background-color:#000;
-            height: 50px;
+            height: 30%;
         }
 
         .last{
             display:inline;
-            padding: 100px;        }
+            padding: 100px;
+            margin-top: 20px; 
+        }
 
         a:hover{
             text-decoration:none;
@@ -56,7 +58,7 @@
         }
         img {
             max-width: 100%;
-            height: auto;
+            max-height:fit-content;
         }
     </style>
 </head>
@@ -102,13 +104,13 @@
           <br/>
           <br/>
         <div class="row shadow">
-            <div class="col-sm-4">
+            <div class="col-sm-6 col-md-4">
                 <p>ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6 col-md-4">
                 <p>ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-12 col-md-4">
                 <p>ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt</p>
             </div>
         </div>
@@ -116,10 +118,10 @@
         <br>
         <br>
         <div class="row shadow">
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                 <img class="img-responive" src="images/food3.jpeg" alt="photo" width="100%" height="auto">
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-12 col-md-6">
                 <p>ullamcorper velit sed ullamcorper morbi tinciduntullamcorper velit sed ullamcorper morbi tincidunt.ullamcorper velit sed ullamcorper morbi tinciduntullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tinciduntullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tinciduntullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt</p>
             </div>
         </div>
@@ -127,16 +129,29 @@
         <br>
         <br>
         <div class="row shadow">
-            <div class="col-sm-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <img class="img-responsive" src="images/food2.jpeg" alt="photo" width="100%" height="auto">
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <p>ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt</p>
             </div>
-            <div class="col-sm-3">
+            <div class="d-sm-none d-md-block col-md-6 col-lg-3">
                 <div class="img-responsive"><img src="images/food1.jpg" alt="photo" width="100%" height="auto"></div>
             </div>
-            <div class="col-sm-3">
+            <div class="d-sm-none d-md-block col-md-6 col-lg-3">
+                <p>ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper
+                    velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed
+                    ullamcorper morbi tincidunt</p>
+            </div>
+        </div class="d-none d-sm-block d-md-none">
+        <br class="d-none d-sm-block d-md-none"/>
+        <br class="d-none d-sm-block d-md-none"/>
+        <br class="d-none d-sm-block d-md-none"/>
+        <div class="row shadow d-none d-sm-block d-md-none">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="img-responsive"><img src="images/food1.jpg" alt="photo" width="100%" height="auto"></div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <p>ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt ullamcorper velit sed ullamcorper morbi tincidunt</p>
             </div>
         </div>
@@ -152,10 +167,10 @@
         <div class="row shadow last-row">
             <nav class="last-div">
                 <ul>
-                    <li class="last"><a href="#">HOME</a></li>
-                    <li class="last"><a href="#">GAMES</a></li>
-                    <li class="last"><a href="#">SPORT</a></li>
-                    <li class="last"><a href="#">PEOPLE</a></li>
+                    <li class="last col-sm-6 col-lg-3"><a href="#">HOME</a></li>
+                    <li class="last col-sm-6 col-lg-3"><a href="#">GAMES</a></li>
+                    <li class="last col-sm-6 col-lg-3"><a href="#">SPORT</a></li>
+                    <li class="last col-sm-6 col-lg-3"><a href="index.html">PEOPLE</a></li>
                 </ul>
             </nav>
         </div>
